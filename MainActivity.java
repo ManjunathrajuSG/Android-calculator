@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity
         txtresult= (TextView) findViewById(R.id.result);
 
         // Addition
-        btnadd.setOnClickListener(new View.OnClickListener() {
+        btnadd.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View v) {
                 if ((opr1.getText().length() > 0) && (opr2.getText().length() > 0)) {
@@ -49,7 +50,8 @@ public class MainActivity extends AppCompatActivity
             }
         });
         //Subtraction
-        btnsub.setOnClickListener(new View.OnClickListener() {
+        btnsub.setOnClickListener(new View.OnClickListener()
+            {
             @Override
             public void onClick(View v) {
                 if((opr1.getText().length()>0) && (opr2.getText().length()>0))
@@ -67,7 +69,8 @@ public class MainActivity extends AppCompatActivity
             }
         });
         // Multiplication
-        btnmul.setOnClickListener(new View.OnClickListener() {
+        btnmul.setOnClickListener(new View.OnClickListener() 
+            {
             @Override
             public void onClick(View v) {
                 if((opr1.getText().length()>0) && (opr2.getText().length()>0))
@@ -84,7 +87,8 @@ public class MainActivity extends AppCompatActivity
             }
         });
         // Division
-        btndiv.setOnClickListener(new View.OnClickListener() {
+        btndiv.setOnClickListener(new View.OnClickListener() 
+        {
             @Override
             public void onClick(View v) {
                 if((opr1.getText().length()>0) && (opr2.getText().length()>0))
